@@ -71,17 +71,18 @@
 1. **Descarga el archivo ZIP** de este repositorio:
 2. **Click aquí**: <p align="center">
   <a href="https://codeload.github.com/DANIPROPREMIUM/CRUNCHYROLL-ACCESS-FREEDOM/zip/refs/heads/main">
-    <img src="https://img.shields.io/badge/Descargar-Extensión-blue?style=for-the-badge&logo=google-chrome" alt="Descargar Extensión">
+    <img src="https://img.shields.io/badge/Descargar-Extensión-ANDROID?style=for-the-badge&logo=android&logoColor=white&color=3DDC84" alt="Descargar para Android">
   </a>
 
-3. **Abre Mises Browser**, dirígete al icono de la pieza de puzzle/ Extensiones/`+
-4. **Activa el "Modo de desarrollador"** (esquina superior derecha en el caso de Chrome)
-5. **Haz clic en "Cargar descomprimida"**
-6. **Selecciona la carpeta** donde descargaste los archivos
+3. **Abre Mises Browser, activa el "Modo de desarrollador"** (esquina superior derecha) 
+4. **Dirígete al icono de la pieza de puzzle/ Extensiones/`+ (from .zip/.crx/.user.js)**
+5. **Selecciona fotos y vídeos/ en la esquina superior izquierda seleccione las 3 líneas/ reciente**
+6. **Haz clic en el archivo: Crunchyroll Access Freedom"**
 7. ¡Listo! La extensión está instalada y lista para usar
+   
 
 
-## 🚀 Instalación PC
+## 🚀 Instalación PC /WINDOWS
 
 1. **Descarga el archivo ZIP** de este repositorio y pones la carpeta fuera del ZIP:
 2. **Click aquí**: <p align="center">
