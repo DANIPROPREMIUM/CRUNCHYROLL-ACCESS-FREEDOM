@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Crunchyroll Access Freedom</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 1. ENCABEZADO: LOGO DE CRUNCHYROLL MEJORADO -->
+    <header class="logo-header">
+      <div class="logo-container">
+        <div class="logo-icon">
+          <img src="https://z-cdn-media.chatglm.cn/files/37c25df9-6dc4-4c91-b9c3-a58d6cc64cad_pngwing.com.png?auth_key=1864503302-8314b57da056467490785d962d3956b0-0-de790b2f89038ba277e378dd3d556517" alt="Crunchyroll Logo" class="logo-image">
+        </div>
+        <div class="logo-text">
+          <span class="brand-name">CRUNCHYROLL</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. NUEVO ENCABEZADO: TÍTULO "ACCESS FREEDOM" CENTRADO -->
+    <header class="access-freedom-header">
+      <div class="extension-title-info">
+        <h1>Access Freedom</h1>
+        <div class="version-badge">v1.0</div>
+        <div class="credit-text">BY DANIPRO PREMIUM</div>
+      </div>
+    </header>
+
+    <!-- 3. BARRA DE ACCIONES: SOLO EL BOTÓN DE TELEGRAM -->
+    <div class="action-bar">
+      <a href="https://t.me/cuentaspremiumid" target="_blank" class="telegram-button">
+        <i class="fab fa-telegram"></i>
+        <span>OBTÉN NUEVOS CÓDIGOS ID</span>
+      </a>
+    </div>
+
+    <!-- 4. CONTENIDO PRINCIPAL (EL RESTO) -->
+    <main class="main-content">
+      <div class="input-section">
+        <div class="input-wrapper">
+          <i class="fas fa-key input-icon"></i>
+          <input type="text" id="full-code-input" placeholder="Pega tu código ID aquí" autocomplete="off">
+          <button id="paste-button" class="paste-button" title="Pegar desde el portapapeles">
+            <i class="fas fa-paste"></i>
+          </button>
+        </div>
+        <button id="restore-session" class="main-button">
+          <i class="fas fa-play button-icon"></i>
+          <span>Acceder a Crunchyroll</span>
+          <div class="button-ripple"></div>
+        </button>
+      </div>
+
+      <div class="code-status-section">
+        <div class="code-status-card">
+          <div class="status-header">
+            <i class="fas fa-clock status-icon"></i>
+            <span id="code-status-text">Estado del Código</span>
+          </div>
+          <div id="code-expiry-text">Introduce un código para ver su estado</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Contenedor de notificaciones -->
+    <div id="notification-container"></div>
+  </div>
+
+  <!-- Referencia al archivo JavaScript externo -->
+  <script src="popup.js"></script>
+</body>
+</html>
