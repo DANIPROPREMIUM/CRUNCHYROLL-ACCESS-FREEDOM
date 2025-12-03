@@ -1,14 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Crunchyroll Access Freedom",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Acceso libre a Crunchyroll. Sin límites. Sin restricciones.",
   "permissions": [
     "cookies",
     "activeTab",
     "scripting",
     "storage",
-    "windows",
+    "windows"
+  ],
+  "optional_permissions": [
     "webNavigation"
   ],
   "host_permissions": [
