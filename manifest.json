@@ -10,9 +10,6 @@
     "storage",
     "windows"
   ],
-  "optional_permissions": [
-    "webNavigation"
-  ],
   "host_permissions": [
     "*://*.crunchyroll.com/*"
   ],
