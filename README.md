@@ -47,16 +47,15 @@
 
 | Acceso gratis con Código ID | Crea Sesiones ID (extensión exclusiva para el creador)  |
 | :---: | :---: |
-| ![Image](https://github.com/user-attachments/assets/cd530d56-2c9d-49fb-8f98-f0a9c3c08138) | ![Image](https://github.com/user-attachments/assets/f1244809-c434-496a-a0a7-07f87bcd81dd) |
+| ![Image](https://github.com/user-attachments/assets/b890f605-10f8-43a7-98bd-bf0056187420) | ![Image](https://github.com/user-attachments/assets/bf567e04-ab63-4c93-b88d-f56817e8fb77) |
 
 ---
 
 ## ✨ Características Clave
 
-*   🔑 **Acceso instantáneo con un código ID**: Entra a Crunchyroll en un clic. Olvídate de contraseñas.
+*   🔑 **Acceso instantáneo con un código ID**: Entra a Netflix en un clic. Olvídate de contraseñas.
 *   🛡️ **Bypass automático de restricciones**: Omite límites de dispositivos y bloqueos geográficos sin esfuerzo.
-*   🔒 **Protección de sesión**: Sesión estable durante 3 días desde que se crea la sesión con Session Creator.
-*   ⌛ **Estado del código ID**: Antes de entrar te marca el tiempo restante de la sesión.
+*   🔒 **Protección de sesión**: Sesión estable desde que se crea la sesión con Session Creator.
 
 ---
 
