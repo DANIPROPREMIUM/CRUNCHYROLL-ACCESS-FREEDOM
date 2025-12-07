@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <!-- 1. ENCABEZADO: LOGO DE CRUNCHYROLL MEJORADO -->
+    <!-- 1. ENCABEZADO: LOGO DE CRUNCHYROLL (MANTENIDO) -->
     <header class="logo-header">
       <div class="logo-container">
         <div class="logo-icon">
@@ -20,56 +20,45 @@
       </div>
     </header>
 
-    <!-- 2. NUEVO ENCABEZADO: TÍTULO "ACCESS FREEDOM" CENTRADO -->
-    <header class="access-freedom-header">
-      <div class="extension-title-info">
-        <h1>Access Freedom</h1>
-        <div class="version-badge">v2.0</div>
-        <div class="credit-text">BY DANIPRO PREMIUM</div>
+    <!-- 2. CONTENIDO PRINCIPAL Y FOOTER UNIFICADOS -->
+    <div class="main-container">
+      <h1 class="extension-title">Access Freedom</h1>
+      
+      <!-- NUEVO CONTENEDOR PARA EL BADGE Y EL CRÉDITO LADO A LADO -->
+      <div class="header-info">
+        <div class="version-badge">v3.0</div>
+        <p class="credit-text">BY DANIPRO PREMIUM</p>
       </div>
-    </header>
 
-    <!-- 3. BARRA DE ACCIONES: SOLO EL BOTÓN DE TELEGRAM -->
-    <div class="action-bar">
-      <a href="https://t.me/cuentaspremiumid" target="_blank" class="telegram-button">
-        <i class="fab fa-telegram"></i>
-        <span>OBTÉN NUEVOS CÓDIGOS ID</span>
-      </a>
-    </div>
-
-    <!-- 4. CONTENIDO PRINCIPAL (EL RESTO) -->
-    <main class="main-content">
-      <div class="input-section">
-        <div class="input-wrapper">
-          <i class="fas fa-key input-icon"></i>
-          <input type="text" id="full-code-input" placeholder="Pega tu código ID aquí" autocomplete="off">
-          <button id="paste-button" class="paste-button" title="Pegar desde el portapapeles">
-            <i class="fas fa-paste"></i>
-          </button>
-        </div>
-        <button id="restore-session" class="main-button">
-          <i class="fas fa-play button-icon"></i>
-          <span>Acceder a Crunchyroll</span>
-          <div class="button-ripple"></div>
+      <div class="input-wrapper">
+        <!-- NUEVO ICONO DE LLAVE AÑADIDO -->
+        <i class="fas fa-key input-icon"></i>
+        <input type="text" id="full-code-input" placeholder="Pega tu código ID aquí" autocomplete="off">
+        <button id="paste-button" class="paste-button" title="Pegar desde el portapapeles">
+          <i class="fas fa-paste"></i>
         </button>
       </div>
 
-      <div class="code-status-section">
-        <div class="code-status-card">
-          <div class="status-header">
-            <i class="fas fa-clock status-icon"></i>
-            <span id="code-status-text">Estado del Código</span>
-          </div>
-          <div id="code-expiry-text">Introduce un código para ver su estado</div>
-        </div>
-      </div>
-    </main>
+      <!-- BOTÓN PRINCIPAL SIN ICONO -->
+      <button id="restore-session" class="main-button">
+        <span>Acceder a Crunchyroll</span>
+        <div class="button-ripple"></div>
+      </button>
 
-    <!-- Contenedor de notificaciones -->
+      <!-- Footer con botón sin márgenes laterales -->
+      <div class="footer">
+        <a href="https://t.me/cuentaspremiumid" target="_blank" class="footer-button">
+          <i class="fab fa-telegram"></i>
+          <span>Ir al Grupo</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contenedor de notificaciones (sin cambios) -->
     <div id="notification-container"></div>
   </div>
 
-  <!-- Referencia al archivo JavaScript externo -->
+  <!-- Referencia al archivo JavaScript externo (sin cambios) -->
   <script src="popup.js"></script>
 </body>
 </html>
